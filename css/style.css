@@ -1,0 +1,101 @@
+body {
+	width: 95%;
+	background-color: rgb(200,250,350);
+	font-family: sans-serif;
+	font-size: 18px;
+
+}
+#topmenu {
+	text-align: center;
+	margin: 20px 10px 0px 20px;
+}
+ul li{
+	background-color: white;
+	font-family:sans-serif;font-color: white;font-weight:bold;font-size: 14px;
+	margin: -10px;
+	display : inline;
+	padding:20px 40px 20px 40px ;
+	border-radius: 10px 0px 10px 0px;
+}
+.abt{
+	text-align: center;
+}
+.Pinfo{
+	margin-left: 120px;
+	text-align: justify;
+	font-size: 20px;
+}
+.hob{
+	float: left;
+	width: 43%;
+	margin-left: 90px;
+	margin-right: 10px;
+}
+.fl{
+	float: left;
+	width: 43%;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	margin-right: 10px;
+}
+.list{
+	font-style: italic;
+	margin-left: 120px;
+	border: 5px ridge black;
+
+}
+.links {
+	font-style: italic;
+	margin-left: 150px;
+	border: 5px groove black;
+
+}
+
+table { 
+	width: 95%;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+table th, table td, table tr { 
+	padding: 20px ; 
+}
+
+hr{
+	background-size: 3px;
+}
+
+h2, h3, h4, h5, h6{
+	font-size: 24px;
+	font-style: italic;
+}
+#plink {
+	margin-left: 50px;
+}
+.quo {
+	margin-left: 90px;
+}
+blockquote {
+	border: 5px inset black;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+#tab {
+	margin-left: 90px;
+	font-style: italic;
+	
+}
+.footing{
+	margin-left: 90px;
+}
+.convert{
+	text-align: center;
+	font-style: bold;
+	font-size: 24px;
+	color : blue;
+	margin-left: 240px;
+	margin-right: 95px;
+}
+a {
+	text-decoration: none;
+}

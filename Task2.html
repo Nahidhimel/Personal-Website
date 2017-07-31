@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Currency Converter</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/JavaScript">
+	
+		function Convert(currency){
+			if(currency == "USD"){
+				GBP = document.converter.USD.value * 0.49246 
+				document.converter.GBP.value = (GBP)
+				CAD = document.converter.USD.value * 0.98054 
+				document.converter.CAD.value = (CAD)
+				EUR = document.converter.USD.value * 0.70461 
+				document.converter.EUR.value = (EUR)
+				AUD = document.converter.USD.value * 1.12162
+				 document.converter.AUD.value = (AUD)
+			}
+			else if(currency == "GBP"){
+				USD = document.converter.GBP.value * 2.03032 
+				document.converter.USD.value = (USD)
+				CAD = document.converter.GBP.value * 1.99169 
+				document.converter.CAD.value = (CAD) 
+				EUR = document.converter.GBP.value * 1.43448 
+				document.converter.EUR.value = (EUR)
+				AUD = document.converter.GBP.value * 2.29964 
+				document.converter.AUD.value = (AUD)
+			}
+			else if(currency == "CAD"){
+				USD = document.converter.CAD.value * 1.01941
+				 document.converter.USD.value = (USD)
+				GBP = document.converter.CAD.value * 0.50221 
+				document.converter.GBP.value = (GBP)
+				EUR = document.converter.CAD.value * 0.72037 
+				document.converter.EUR.value = (EUR)
+				AUD = document.converter.CAD.value * 1.15498 
+				document.converter.AUD.value = (AUD)
+			}
+		    else if(currency == "EUR"){
+				USD = document.converter.EUR.value * 1.41544 
+				document.converter.USD.value = (USD)
+				GBP = document.converter.EUR.value * 0.69714 
+				document.converter.GBP.value = (GBP)
+				CAD = document.converter.EUR.value * 1.38814 
+				document.converter.CAD.value = (CAD)
+				AUD = document.converter.EUR.value * 1.60329 
+				document.converter.AUD.value = (AUD)
+			}
+		    else{
+				USD = document.converter.AUD.value * 0.88297 
+				document.converter.USD.value = (USD)
+				GBP = document.converter.AUD.value * 0.43497
+				document.converter.GBP.value = (GBP)
+				CAD = document.converter.AUD.value * 0.86613 
+				document.converter.CAD.value = (CAD)
+				EUR = document.converter.AUD.value * 0.62382 
+				document.converter.EUR.value = (EUR)
+			}
+		}
+
+	</script>
+</head>
+<body>
+
+	<div align="center">
+	<form name="converter">
+		
+		<p><b> This is a currency converter; Insert in any of these boxes and <br>
+		by clicking in the convert button you will get the value in other currency. </b></p>
+			<input name="USD" onkeyup="Convert('USD')" size="20"/> USD <br>
+			equals<br>
+			<input name="EUR" onkeyup="Convert('EUR')" size="20"/> EUR <br> 
+			equals<br>
+			<input name="GBP" onkeyup="Convert('GBP')" size="20"/> GBP <br> 
+			equals<br>
+			<input name="CAD" onkeyup="Convert('CAD')" size="20"/> CAD <br> 
+			equals<br>
+			<input name="AUD" onkeyup="Convert('AUD')" size="20"/> AUD <br>
+	
+	</form>
+	</div>
+	
+</body>
+</html>

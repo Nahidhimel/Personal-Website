@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title> Fortune Generator </title>
+	<script type="text/javascript">
+
+	var Fortune = ["Fear can hold you prisoner, Hope can set you free.",
+					"Seven deadly sin; seven ways to die.",
+					"My precious.",
+					"Bond. James Bond.",
+					"Miracles do happen.",
+					"I don't feel I have to wipe everybody. Just my enemies.",
+					"Whoever saves one life, saves the world entire.",
+					"Just because you are a character doesn't mean you have character.",
+					"How much can you know about yourself if you've never been in a fight?",
+					"One ring to rule them all",
+					"Life is like a box of chocolates.you never know what you're gonna get.",
+					"If you run you're dead...if you stay, you're dead again. Period."
+					];
+	function generate(){
+
+		var x=Math.floor(Math.random()*12);
+		
+		document.write("The page loads with this movie qoute:>>  " + Fortune[x]);
+	}
+	</script>
+</head>
+<body>
+	<div align="center">
+		<table width="50%" border="1">
+			<tr>
+			 <td align="center"><small><i>
+			 <script type="text/javascript">
+	            generate();
+	         </script>
+	         </i></small></td>
+	        </tr>
+        </table>
+
+	</div>
+</body>
+</html>
